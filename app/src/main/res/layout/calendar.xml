@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBD0D6"
+    android:textAlignment="center"
+    tools:context=".CalendarActivity">
+
+    <TextView
+        android:id="@+id/selectday"
+        android:layout_width="343dp"
+        android:layout_height="71dp"
+        android:fontFamily="monospace"
+        android:text="@string/Select_the_day"
+        android:textAlignment="center"
+        android:textColor="#08006A"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="423dp"
+        android:layout_height="82dp"
+        android:background="#7E8B96"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="147dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:fontFamily="monospace"
+            android:fontStyle="normal"
+            android:text="@string/my_medications"
+            android:textAlignment="center"
+            android:textColor="#08006A"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="141dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:fontFamily="monospace"
+            android:fontStyle="normal"
+            android:text="@string/health_condition"
+            android:textAlignment="center"
+            android:textColor="#08006A"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="8dp"
+            android:background="#00000000"
+            android:backgroundTint="#916D6D"
+            android:contentDescription="@string/app_name"
+            android:fontFamily="monospace"
+            android:fontStyle="normal"
+            android:padding="100dp"
+            android:textColor="#08006A"
+            android:textStyle="bold"
+            app:srcCompat="@drawable/ic_add" />
+
+    </FrameLayout>
+
+    <CalendarView
+        android:id="@+id/CalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:minDate="01/01/2021"
+        android:maxDate="31/12/2021"
+        android:showWeekNumber="true"
+        android:weekNumberColor="#F60600"
+        android:weekSeparatorLineColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectday"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <Button
+        android:id="@+id/okbutton"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#08006A"
+        android:fontFamily="monospace"
+        android:text="@string/ok"
+        android:textColorHighlight="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#64F3E5E5"
+        android:fontFamily="monospace"
+        android:text="@string/Cancel"
+        android:textColor="#070606"
+        app:layout_constraintBottom_toTopOf="@id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

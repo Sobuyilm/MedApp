@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MedicationApp</string>
+    <string name="scan_your_prescription_add_to_your_medications_and_you_will_never_forget_to_take_them">Scan your prescription, add to your medications and you will never forget to take them!</string>
+    <string name="my_medications">My medications</string>
+    <string name="health_condition">Health Condition</string>
+    <string name="be_in_control_of_your_meds">Be in control of your meds</string>
+    <string name="today">Today</string>
+    <string name="Select_the_day">Select the day</string>
+    <string name="ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="new_medicine">New medicine</string>
+    <string name="medicine_name">Medicine name</string>
+    <string name="time_to_remind">Time to remind</string>
+    <string name="enter_medicine">Enter medicine</string>
+    <string name="medicine_days">Medicine days</string>
+    <string name="todo">TODO</string>
+    <string name="wow_you_have_already_taken_of_medicines">Wow! You have already taken of medicines</string>
+    <string name="textView">Wow! You have taken of medicines</string>
+    <string name="how_did_you_sleep">How did you sleep?</string>
+    <string name="do_you_feel_pain">Do you feel pain?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">save</string>
+</resources>

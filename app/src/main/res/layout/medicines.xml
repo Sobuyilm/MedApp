@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBD0D6"
+    android:textAlignment="center"
+    tools:context=".TodaysMedicine">
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="423dp"
+        android:layout_height="82dp"
+        android:background="#7E8B96"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="147dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:fontFamily="monospace"
+            android:fontStyle="normal"
+            android:text="@string/my_medications"
+            android:textAlignment="center"
+            android:textColor="#08006A"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="141dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:fontFamily="monospace"
+            android:fontStyle="normal"
+            android:text="@string/health_condition"
+            android:textAlignment="center"
+            android:textColor="#08006A"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="8dp"
+            android:background="#00000000"
+            android:backgroundTint="#916D6D"
+            android:contentDescription="@string/app_name"
+            android:fontFamily="monospace"
+            android:fontStyle="normal"
+            android:padding="100dp"
+            android:textColor="#08006A"
+            android:textStyle="bold"
+            app:srcCompat="@drawable/ic_add" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/today"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="monospace"
+        android:text="@string/today"
+        android:textAlignment="center"
+        android:textColor="#08006A"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="177dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="500dp"
+        android:autofillHints="@string/medicine_days"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor" />
+
+    <ImageButton
+        android:id="@+id/buttonCalendar"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="496dp"
+        android:background="#BBDADD"
+        android:src="@android:drawable/ic_menu_my_calendar"
+        app:layout_constraintBottom_toTopOf="@+id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/todo"/>
+
+    <TextView
+        android:id="@+id/wow"
+        android:layout_width="383dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="396dp"
+        android:text="@string/wow_you_have_already_taken_of_medicines"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate2"
+        tools:ignore="UnknownId" />
+
+    <ImageButton
+        android:id="@+id/plusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#292525"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toTopOf="@+id/frame1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonCalendar"
+        android:contentDescription="@string/todo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
