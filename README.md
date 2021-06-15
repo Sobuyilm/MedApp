@@ -17,7 +17,7 @@ Health condition: you can choose from mood, pain and sleep. Mood: good, bad, so 
 Code replication steps:
 
 1. download Android Studio (https://developer.android.com/studio)
--> Setup for Windows: https://codingpointer.com/blogs/install-android-studio
+-> Setup for Windows/Mac/Linux/Chrome OS: https://developer.android.com/studio/install#:~:text=%20To%20install%20Android%20Studio%20on%20Linux%2C%20proceed,Studio%20settings%20%20or%20not%2C%20then...%20More%20
 2. download MedApp from the repository and run our code in Android Studio 
 
 Backend: 
