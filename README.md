@@ -1,6 +1,6 @@
 # MedApp
 Idea: 
-You open the app and you scan the prescription. The app shows how many times a day you need to take the medicine (for example, 3 times a day = every 8 hours). The app resembles a signal at a certain time.
+You open the app and you scan a prescription. The app shows how many times a day you need to take the medicine (for example, 3 times a day = every 8 hours). The app resembles a signal at a certain time.
 
 
 Functionalities and according tasks:
