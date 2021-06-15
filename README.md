@@ -9,7 +9,7 @@ Add (+): choose the picture of the prescription from the gallery or scan the pre
 
 My medications: you see what day is it today, how many pills have you already taken, time and name of the medication.
 
-Health condition: you can choose from mood, pain and sleep. Mood: good, bad, so so. Pain: you can write what kind of pain do you have. Sleep: how much and how good have you slept today.
+Health condition: you can choose from pain and sleep. Pain: do you have pain? (yes/no) Sleep: how did you sleep? (1-5 stars)
 
 ![image](https://user-images.githubusercontent.com/82457064/116869116-68a48a00-ac10-11eb-8131-49e9421101b2.png)
 
