@@ -12,3 +12,13 @@ My medications: you see what day is it today, how many pills have you already ta
 Health condition: you can choose from mood, pain and sleep. Mood: good, bad, so so. Pain: you can write what kind of pain do you have. Sleep: how much and how good have you slept today.
 
 ![image](https://user-images.githubusercontent.com/82457064/116869116-68a48a00-ac10-11eb-8131-49e9421101b2.png)
+
+
+Code replication steps:
+
+1. download Android Studio (https://developer.android.com/studio)
+-> Setup for Windows: https://codingpointer.com/blogs/install-android-studio
+2. download MedApp from the repository and run our code in Android Studio 
+
+Backend: 
+1.    
